@@ -1,14 +1,21 @@
 # Invoke-MinimizeWindow
 
-w’èƒvƒƒZƒX‚ÌƒEƒBƒ“ƒhƒE‚ÌÅ¬‰»E•œŒ³‚·‚é
+æŒ‡å®šãƒ—ãƒ­ã‚»ã‚¹ã®ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’æœ€å°åŒ–ãƒ»å¾©å…ƒã™ã‚‹
 
 ## Usage:
 
-Invoke-MinimizeWindow.exe [ƒvƒƒZƒX–¼] [--toggle | --minimize | --restore]
+Invoke-MinimizeWindow.exe {ProcessName} {--toggle|--minimize|--restore}
+
+| arguments | æ©Ÿèƒ½ |
+| ---- | ---- |
+| processName | å¯¾è±¡ãƒ—ãƒ­ã‚»ã‚¹ |
+| -minimize | æœ€å°åŒ– |
+| -restore  | æœ€å°åŒ–ã‹ã‚‰å¾©å…ƒ |
+| -toggle   | æœ€å°åŒ–ã¨å¾©å…ƒã®ãƒˆã‚°ãƒ« |
  
 ## Example usage:
 
-ƒŠƒ‚[ƒgƒfƒXƒNƒgƒbƒvÚ‘±(mstsc.exe)‚ÌƒEƒBƒ“ƒhƒE‚ğƒgƒOƒ‹ (Minimize <--> Normal)
+ãƒªãƒ¢ãƒ¼ãƒˆãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—æ¥ç¶š(mstsc.exe)ã®ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’ãƒˆã‚°ãƒ« (Minimize <--> Normal)
 ```
 Invoke-MinimizeWindow.exe mstsc --toggle
 ```
