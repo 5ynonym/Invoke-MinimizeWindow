@@ -4,7 +4,9 @@
 
 ## Usage:
 
+```
 Invoke-MinimizeWindow.exe {ProcessName} {--toggle|--minimize|--restore}
+```
 
 | arguments | 機能 |
 | ---- | ---- |
