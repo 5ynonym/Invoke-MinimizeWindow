@@ -15,7 +15,10 @@ Invoke-MinimizeWindow.exe {ProcessName} {--toggle|--minimize|--restore}
  
 ## Example usage:
 
-リモートデスクトップ接続(mstsc.exe)のウィンドウをトグル (Minimize <--> Normal)
+リモートデスクトップ接続(`mstsc.exe`)のウィンドウ最小化をトグル (Minimize <--> Normal)
 ```
 Invoke-MinimizeWindow.exe mstsc --toggle
 ```
+
+ローカルデバイスに割り当てるとリモートデスクトップのウィンドウをワンボタンで最小化・復元できる。
+(マウスのボタンのマクロで実行、Stream Deckのボタンで実行、など)
